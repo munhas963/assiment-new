@@ -243,7 +243,7 @@ let opacityBtn =document.getElementById('add-btn6');
 opacityBtn.style.opacity = "0.2"
 opacityBtn.style.backgroundColor ="bg-indigo-600";
 opacityBtn.style.pointerEvents ="none";
-if(convartMain > 29){
+if(convartMain =29){
     alert("congratulations!! You have completed all the current task ")
 }
 let time = new Date();
@@ -279,9 +279,7 @@ document.getElementById('question').addEventListener('click',function(){
     window.location.href="./new.html";
      
 })
-//  document.getElementById('back').addEventListener('click',function(){
-//     window.location.href="./index.html";
-//   })
+
 
 const image = document.getElementById('image-color');
 function getRandomColor() {
